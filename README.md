@@ -1,3 +1,4 @@
+
 # LoginForm React App
 
 A simple, responsive Login and Signup React application with **custom logos** and basic local storage authentication. Built using React, React Router, and modular components.
@@ -52,3 +53,63 @@ A simple, responsive Login and Signup React application with **custom logos** an
 ```bash
 git clone https://github.com/shrinivashunnur08/LoginForm.git
 cd LoginForm
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Run the app:
+
+```bash
+npm start
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## Folder Structure
+
+```
+LoginForm/
+├─ public/
+│  ├─ login-logo.png
+│  ├─ signup-logo.png
+│  └─ bg.jpg
+├─ src/
+│  ├─ components/
+│  │  ├─ InputField.jsx
+│  │  └─ SocialLogin.jsx
+│  ├─ App.jsx
+│  └─ index.css
+├─ package.json
+└─ README.md
+```
+
+---
+
+## Technologies Used
+
+- React 18+  
+- React Router DOM  
+- JavaScript (ES6+)  
+- CSS for styling  
+- Local Storage for basic authentication  
+
+---
+
+## Usage
+
+1. **Sign Up**: Create an account using first name, last name, email, and password.  
+2. **Login**: Log in with the generated username and password.  
+3. **Forgot Password**: Reset your password if you forget it.  
+4. **Home**: See a personalized welcome message and logout.  
+
+---
+
+## License
+
+This project is open source and available under the **MIT License**.
